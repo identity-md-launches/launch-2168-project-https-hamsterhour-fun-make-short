@@ -1,0 +1,75 @@
+{
+  "status": "pass",
+  "checks_are_local": true,
+  "videos": [
+    {
+      "path": "artifacts/video.mp4",
+      "duration_seconds": 40,
+      "width": 1080,
+      "height": 1080,
+      "fps": 24,
+      "frames": 960,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_codec": "aac",
+      "audio_hz": 48000,
+      "audio_channels": 1,
+      "bytes": 1375324,
+      "faststart": true,
+      "full_decode": "pass",
+      "sha256": "576ef0e279c7077f241efca5ed73075ff5f36fad1800fcb6dfbccccda89722e4"
+    },
+    {
+      "path": "media/video-vertical.mp4",
+      "duration_seconds": 40,
+      "width": 1080,
+      "height": 1920,
+      "fps": 24,
+      "frames": 960,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_codec": "aac",
+      "audio_hz": 48000,
+      "audio_channels": 1,
+      "bytes": 1475467,
+      "faststart": true,
+      "full_decode": "pass",
+      "sha256": "eba0da1df6e7167fe55327868fd4f7d40b1d40a905d3d9cbaa5307c7cf640e88"
+    }
+  ],
+  "gif": {
+    "path": "media/sleeping.gif",
+    "width": 480,
+    "height": 480,
+    "frames": 45,
+    "duration_ms": 3000,
+    "loop": "infinite",
+    "bytes": 227649,
+    "all_frames_decoded": true,
+    "palette_colors": 64
+  },
+  "audio": {
+    "integrated_loudness_lufs": -18.37,
+    "true_peak_dbtp": -1.38,
+    "loudness_range_lu": 2.0,
+    "original_synthesized_music_and_sfx": true,
+    "voiceover": false,
+    "measurement": "ffmpeg loudnorm analysis of final AAC"
+  },
+  "visual_review": {
+    "method": "inspected storyboard stills and contact sheets from encoded square and portrait MP4s",
+    "caption_spellings_checked": [
+      "Squeektoshi",
+      "IMD",
+      "$HAMSTER",
+      "hamsterhour.fun"
+    ],
+    "x_link": "end card only",
+    "muted_readability": "captions throughout",
+    "limitations": [
+      "Stylized site art, no actual hamster footage",
+      "Recreated UI, demo bet, illustrative chart and guesses",
+      "Local checks do not independently certify behavior"
+    ]
+  }
+}
